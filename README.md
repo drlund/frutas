@@ -10,7 +10,7 @@ Você pode estar se perguntando por que precisa haver objetos dentro do array qu
 
 
 ## Definindo o valor padrão usando o State
-Para selecionar uma opção padrão no React, o atributo selected é usado no elemento option. No React, no entanto, em vez de usar o atributo selected, o prop value é usado no elemento select raiz. Assim, você pode definir um valor padrão passando o valor da opção na prop value do elemento select de entrada. Isso é muito conveniente em um componente controlado, pois você só precisa atualizar o valor em um lugar.
+Para selecionar uma opção padrão no React, o atributo **selected** é usado no elemento **option**. No React, no entanto, em vez de usar o atributo **selected**, o **prop value** é usado no elemento **select** raiz. Assim, você pode definir um valor padrão passando o valor da opção na **prop value** do elemento **select** de entrada. Isso é muito conveniente em um componente controlado, pois você só precisa atualizar o valor em um lugar.
 
 ## Obtendo o valor selecionado
 Para buscar o valor selecionado do elemento **select**, você pode usar a propriedade do manipulador de eventos **onChange**. Assim como os elementos **input** ou **textarea**, você pode usar o manipulador de eventos **onChange** para obter o valor do objeto **event**. Agora, torne este elemento de entrada controlado **select** usando o **State** para passar o valor. Defina o valor inicial no **State** do componente e, no método **handleChange**, defina o valor selecionado como o novo valor no **state**.
