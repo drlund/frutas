@@ -20,7 +20,9 @@ Para buscar o valor selecionado do elemento **select**, você pode usar a propri
 Neste guia, você aprendeu alguns casos de uso diários para o elemento select input, como começar, como buscar o valor selecionado e como tornar o elemento select controlado. Existem bibliotecas de terceiros como react-select que você pode usar para não precisar escrever tanto código.
 
 ### Tradução livre do artigo do site https://www.pluralsight.com/guides/how-to-get-selected-value-from-a-mapped-select-input-in-react criado por Gaurav Singhal.
-
+#
+#
+#
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
