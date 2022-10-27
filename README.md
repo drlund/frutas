@@ -4,16 +4,16 @@
 Construir elementos de entrada selecionada é simples ao trabalhar em projetos da web. Mas com o surgimento de frameworks e bibliotecas JavaScript, construir elementos de entrada pode ser um pouco complicado, pois você precisa pensar do ponto de vista de dados e planejar com antecedência todos os elementos de entrada que estarão no aplicativo. No React, todos os elementos de entrada precisam ser controlados pelo estado, incluindo o elemento **select**. Neste guia, você aprenderá como obter o valor selecionado de uma entrada selecionada no React.
 
 ## Entrada de seleção mapeada
-Comece criando um array de objetos para usar na criação das opções para a entrada de seleção. Para este exemplo, crie uma entrada select para selecionar um valor de uma lista de frutas. Eu criei um arquivo separado na pasta components.
+Comece criando um array de objetos para usar na criação das opções para a entrada de seleção. Para este exemplo, crie uma entrada **select** para selecionar um valor de uma lista de frutas. Eu criei um arquivo separado na pasta **components**.
 
-Você pode estar se perguntando por que precisa haver objetos dentro do array quando você pode usar uma string para criar as opções. É porque o valor da opção não precisa necessariamente ser o mesmo do rótulo. Em seguida, usando o array Opcoes. Atribua a propriedade value do objeto à propriedade value do elemento Opcoes, para que as opções sejam mapeadas corretamente e o valor do elemento select possa ser recuperado.
+Você pode estar se perguntando por que precisa haver objetos dentro do array quando você pode usar uma string para criar as opções. É porque o valor da opção não precisa necessariamente ser o mesmo do rótulo. Em seguida, usando o array **Opcoes**. Atribua a propriedade **value** do objeto à propriedade **value** do elemento **Opcoes**, para que as opções sejam mapeadas corretamente e o valor do elemento **select** possa ser recuperado.
 
 
 ## Definindo o valor padrão usando o State
 Para selecionar uma opção padrão no React, o atributo selected é usado no elemento option. No React, no entanto, em vez de usar o atributo selected, o prop value é usado no elemento select raiz. Assim, você pode definir um valor padrão passando o valor da opção na prop value do elemento select de entrada. Isso é muito conveniente em um componente controlado, pois você só precisa atualizar o valor em um lugar.
 
 ## Obtendo o valor selecionado
-Para buscar o valor selecionado do elemento select, você pode usar a propriedade do manipulador de eventos onChange. Assim como os elementos input ou textarea, você pode usar o manipulador de eventos onChange para obter o valor do objeto event. Agora, torne este elemento de entrada controlado select usando o state para passar o valor. Defina o valor inicial no estado do componente e, no método handleChange, defina o valor selecionado como o novo valor no state.
+Para buscar o valor selecionado do elemento **select**, você pode usar a propriedade do manipulador de eventos **onChange**. Assim como os elementos **input** ou **textarea**, você pode usar o manipulador de eventos **onChange** para obter o valor do objeto **event**. Agora, torne este elemento de entrada controlado **select** usando o **State** para passar o valor. Defina o valor inicial no **State** do componente e, no método **handleChange**, defina o valor selecionado como o novo valor no **state**.
 
 
 ## Conclusão
