@@ -1,7 +1,7 @@
 # Como obter o valor selecionado de uma entrada de seleção mapeada no React utilizando a tag *select*
 
 ## Introdução
-Construir elementos de entrada selecionada é simples ao trabalhar em projetos da web. Mas com o surgimento de frameworks e bibliotecas JavaScript, construir elementos de entrada pode ser um pouco complicado, pois você precisa pensar do ponto de vista de dados e planejar com antecedência todos os elementos de entrada que estarão no aplicativo. No React, todos os elementos de entrada precisam ser controlados pelo estado, incluindo o elemento _*select*_. Neste guia, você aprenderá como obter o valor selecionado de uma entrada selecionada no React.
+Construir elementos de entrada selecionada é simples ao trabalhar em projetos da web. Mas com o surgimento de frameworks e bibliotecas JavaScript, construir elementos de entrada pode ser um pouco complicado, pois você precisa pensar do ponto de vista de dados e planejar com antecedência todos os elementos de entrada que estarão no aplicativo. No React, todos os elementos de entrada precisam ser controlados pelo estado, incluindo o elemento ###_*select*_###. Neste guia, você aprenderá como obter o valor selecionado de uma entrada selecionada no React.
 
 ## Entrada de seleção mapeada
 Comece criando um array de objetos para usar na criação das opções para a entrada de seleção. Para este exemplo, crie uma entrada select para selecionar um valor de uma lista de frutas. Eu criei um arquivo separado na pasta components.
