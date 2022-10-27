@@ -21,8 +21,6 @@ Neste guia, você aprendeu alguns casos de uso diários para o elemento select i
 
 ### Tradução livre do artigo do site https://www.pluralsight.com/guides/how-to-get-selected-value-from-a-mapped-select-input-in-react criado por Gaurav Singhal.
 #
-#
-#
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
